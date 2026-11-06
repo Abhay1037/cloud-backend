@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend-api:
-    image: abhaypratap04/cloud-node-backend:v1
+    image: abhaypratap04/cloud-node-backend:latest
     container_name: node-api-container
     ports:
       - "5000:5000"

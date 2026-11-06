@@ -18,7 +18,7 @@ async function startServer() {
 
         res.end(JSON.stringify({
             status: "Success",
-            message: "Multi-Container Architecture Live on AWS EC2!",
+            message: "Day 17 Complete: Full CI/CD Pipeline Live on AWS EC2!",
             database: "Redis In-Memory Store",
             total_visits: visits,
             connected_host: req.headers.host,
